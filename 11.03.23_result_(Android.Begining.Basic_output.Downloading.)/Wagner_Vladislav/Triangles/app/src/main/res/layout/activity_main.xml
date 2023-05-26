@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/sideA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="6dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="7dp"
+        android:paddingBottom="12dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/side_a"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/sideB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="7dp"
+        android:paddingBottom="12dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/side_b"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/sideC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="7dp"
+        android:paddingBottom="12dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/side_c"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/square"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="19dp"
+        android:layout_marginHorizontal="3dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="7dp"
+        android:paddingBottom="12dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/square"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/perimeter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="7dp"
+        android:paddingBottom="12dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/perimeter"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnSquare"
+            android:paddingVertical="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:width="230dp"
+            android:onClick="countSquare"
+            android:text="@string/btn_square" />
+
+        <Button
+            android:id="@+id/btnPerimeter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:width="230dp"
+            android:onClick="countPerimeter"
+            android:text="@string/btn_perimeter" />
+
+        <Button
+            android:id="@+id/btnGenerate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:width="230dp"
+            android:onClick="generate"
+            android:text="@string/btn_generate" />
+
+    </LinearLayout>
+
+</LinearLayout>

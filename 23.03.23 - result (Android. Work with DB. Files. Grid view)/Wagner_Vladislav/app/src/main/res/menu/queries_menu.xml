@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuBtnQuery1"
+        android:title="@string/btn_query1"
+        />
+
+    <item
+        android:id="@+id/menuBtnQuery2"
+        android:title="@string/btn_query2"
+        />
+
+    <item
+        android:id="@+id/menuBtnQuery3"
+        android:title="@string/btn_query3"
+        />
+
+    <item
+        android:id="@+id/menuBtnExit"
+        android:title="@string/btn_exit"
+        android:icon="@drawable/exit"
+        app:showAsAction="always"
+        />
+</menu>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/shipImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="6dp"
+        android:layout_marginVertical="10dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/bulk" />
+
+    <!--Вывод корабля-->
+    <LinearLayout
+        android:id="@+id/mainLl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="vertical">
+
+
+        <!--Id-->
+        <TextView
+            android:id="@+id/shipId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="start"
+            android:textSize="16sp" />
+
+        <!--Тип корабля-->
+        <TextView
+            android:id="@+id/shipType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="start"
+            android:textSize="16sp" />
+
+        <!--Грузоподъемность-->
+        <TextView
+            android:id="@+id/loadCapacity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="start"
+            android:textSize="16sp" />
+
+        <!--Пункт назанчения-->
+        <TextView
+            android:id="@+id/destination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="start"
+            android:textSize="16sp" />
+
+        <!--Тип груза-->
+        <TextView
+            android:id="@+id/cargoType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="start"
+            android:textSize="16sp" />
+
+        <!--Вес груза-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginVertical="4dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/cargoWeight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="72"
+                android:gravity="start"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnReduceWeight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginStart="6dp"
+                android:layout_weight="14"
+                android:backgroundTint="@color/conduct_el_main"
+                android:paddingVertical="6dp"
+                android:text="@string/btn_reduce" />
+
+            <Button
+                android:id="@+id/btnIncreaseWeight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="14"
+                android:backgroundTint="@color/conduct_el_main"
+                android:paddingVertical="6dp"
+                android:text="@string/btn_increase" />
+        </LinearLayout>
+
+        <!--Стоимость 1 тонны-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginVertical="4dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/tonPrice"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="72"
+                android:gravity="start"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnReducePrice"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginStart="6dp"
+                android:layout_weight="14"
+                android:backgroundTint="@color/conduct_el_main"
+                android:paddingVertical="6dp"
+                android:text="@string/btn_reduce" />
+
+            <Button
+                android:id="@+id/btnIncreasePrice"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="14"
+                android:backgroundTint="@color/conduct_el_main"
+                android:paddingVertical="6dp"
+                android:text="@string/btn_increase" />
+        </LinearLayout>
+
+        <!--Признаки-->
+        <TextView
+            android:id="@+id/shipSigns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="8dp"
+            android:gravity="start"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

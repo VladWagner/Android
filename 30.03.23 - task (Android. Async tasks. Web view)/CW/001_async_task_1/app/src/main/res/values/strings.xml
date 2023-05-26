@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Async Task 1</string>
+
+    <string name="start">Пуск AsyncTask</string>
+    <string name="test">Проверка UI</string>
+    <string name="btn_quit">Выход</string>
+</resources>

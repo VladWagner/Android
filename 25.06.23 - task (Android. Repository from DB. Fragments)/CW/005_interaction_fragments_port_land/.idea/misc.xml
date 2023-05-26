@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Students/VPU911/06_Lesson_VPU911_03.04.2022_Android/CW/005_interaction_fragments_port_land/app/src/main/res/layout-land/activity_main.xml" value="0.21171171171171171" />
+        <entry key="..\:/Students/VPU911/06_Lesson_VPU911_03.04.2022_Android/CW/005_interaction_fragments_port_land/app/src/main/res/layout-port/activity_main.xml" value="0.26875" />
+        <entry key="..\:/Students/VPU911/06_Lesson_VPU911_03.04.2022_Android/CW/005_interaction_fragments_port_land/app/src/main/res/layout/activity_detail.xml" value="0.12239583333333333" />
+        <entry key="..\:/Students/VPU911/06_Lesson_VPU911_03.04.2022_Android/CW/005_interaction_fragments_port_land/app/src/main/res/layout/activity_main.xml" value="0.26875" />
+        <entry key="..\:/Students/VPU911/06_Lesson_VPU911_03.04.2022_Android/CW/005_interaction_fragments_port_land/app/src/main/res/layout/fragment_detail.xml" value="0.1" />
+        <entry key="..\:/Students/VPU911/06_Lesson_VPU911_03.04.2022_Android/CW/005_interaction_fragments_port_land/app/src/main/res/menu/activity_menu.xml" value="0.12239583333333333" />
+        <entry key="..\:/Students/VPU911/06_Lesson_VPU911_03.04.2022_Android/CW/005_interaction_fragments_port_land/app/src/main/res/menu/main_menu.xml" value="0.12239583333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

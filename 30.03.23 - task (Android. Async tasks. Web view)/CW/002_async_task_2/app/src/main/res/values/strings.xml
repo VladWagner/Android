@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Async Task 2</string>
+
+    <string name="start">Загрузить файлы</string>
+    <string name="load_complete">Загрузка завершена</string>
+    <string name="str_info">Прогресс загрузки файлов</string>
+</resources>

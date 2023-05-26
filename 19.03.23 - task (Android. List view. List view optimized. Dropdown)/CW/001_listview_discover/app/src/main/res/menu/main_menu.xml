@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mniCustomAdapter"
+        android:title="@string/mni_custom_adapter" />
+    <item
+        android:id="@+id/mniCustomAdapterActions"
+        android:title="@string/mni_custom_adapter_actions" />
+
+    <item
+        android:id="@+id/mniCustomOptimizedAdapter"
+        android:title="@string/mni_custom_optimized_adapter" />
+
+    <item
+        android:id="@+id/mniMultiChoiceAdd"
+        android:title="@string/mni_multi_choice_add" />
+
+    <item
+        android:id="@+id/mniSpinnersDemo"
+        android:title="@string/mni_spinners_demo" />
+
+    <item
+        android:id="@+id/mniExit"
+        android:title="@string/mni_exit"
+        android:icon="@drawable/door_out"
+        app:showAsAction="always"/>
+</menu>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.AnimalsActionActivity">
+	
+		<!-- 
+		Для RecyclerView следует установить атрибут app:layoutManager, который 
+		указает на тип менеджера компоновки. Менеджер компоновки представляет 
+		объект, который представлен классом LayoutManager. По умолчанию 
+		библиотека RecyclerView предоставляет три реализации данного менеджера:
+            ► LinearLayoutManager: упорядочивает элементы в виде списка 
+			   с одной колонкой
+            ► GridLayoutManager: упорядочивает элементы в виде грида 
+			  со столлбцами и строками. Грид может упорядочивать элементы
+			  по горизонтали (горизонтальный грид) или по вертикали 
+			  (вертикальный грид)
+            ► StaggeredGridLayoutManager: аналогичен GridLayoutManager, 
+			  однако не требует установки для каждого элемента в строке 
+			  имели одну и ту же высоту (для вертикального грида) и одну 
+			  и ту же ширну (для горизонтального грида)
+        В данном случае с помощью значения 
+		androidx.recyclerview.widget.LinearLayoutManager указываем, 
+		что элементы будут располагаться в виде простого списка. 
+		Обратите внимание, что класс LinearLayoutManager также расположен 
+		в библиотеке RecyclerView и поэтому при указании значения указывается 
+		полное название класса с именем его пакета.
+    -->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvModAnimals"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="6dp"
+		
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+</LinearLayout>

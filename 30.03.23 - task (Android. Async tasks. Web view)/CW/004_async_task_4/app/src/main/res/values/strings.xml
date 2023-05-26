@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Async Task 4</string>
+    <string name="btnQuit">Выход</string>
+</resources>

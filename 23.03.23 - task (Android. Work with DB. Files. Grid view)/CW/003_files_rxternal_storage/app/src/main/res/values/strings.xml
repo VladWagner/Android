@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Files External Storage</string>
+
+    <string name="btn_save">Записать</string>
+    <string name="btn_load">Читать</string>
+    <string name="btn_write_text">Зп. текст</string>
+    <string name="btn_read_text">Чт. текст</string>
+    <string name="btn_write_binary">Зп. бин. данные</string>
+    <string name="btn_read_binary">Чт. бин. данные</string>
+    <string name="exit">Выход</string>
+    <string name="text_header">Просмотр файла:</string>
+
+</resources>

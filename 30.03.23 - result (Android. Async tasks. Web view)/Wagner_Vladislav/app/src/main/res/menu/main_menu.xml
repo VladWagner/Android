@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/menuBtnExit"
+        android:title="@string/btn_exit"
+        android:icon="@drawable/exit"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/appointmentsBtn"
+        android:title="@string/btn_appointments_table"
+        />
+    <item
+        android:id="@+id/doctorsBtn"
+        android:title="@string/btn_doctors_table"
+        />
+    <item
+        android:id="@+id/patientsBtn"
+        android:title="@string/btn_patients_table"
+        />
+    <item
+        android:id="@+id/exportToJsonBtn"
+        android:title="@string/export_to_json"
+        />
+    <item
+        android:id="@+id/aboutBtn"
+        android:title="@string/about_activity"
+        />
+</menu>

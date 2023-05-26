@@ -1,0 +1,11 @@
+Андроид Студио - доступ и скачивание через VPN
+https://developer.android.com/studio
+
+!! Компиляция проекта - при включенном VPN !! 
+
+Эмуляторы
+https://ru.bignox.com/
+https://www.genymotion.com/download/
+
+
+

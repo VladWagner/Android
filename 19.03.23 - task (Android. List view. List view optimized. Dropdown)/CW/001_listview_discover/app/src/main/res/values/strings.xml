@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ListView Discover</string>
+    <string name="header_list1">Список, заполненный в разметке</string>
+    <string name="header_list2">Список, заполненный в коде</string>
+    <string name="mni_custom_adapter">Адаптер для класса</string>
+    <string name="mni_custom_adapter_actions">Адаптер с действиями</string>
+    <string name="mni_exit">Выход</string>
+    <string name="item_amount">Кол-во:</string>
+    <string name="header_list3">Школьные товары</string>
+    <string name="btn_back">Назад</string>
+    <string name="header_list4">Школьные товары. Действия</string>
+    <string name="btn_edit">Изм.</string>
+    <string name="btn_remove">Удл.</string>
+    <string name="header_list5">Оптимизированный адаптер</string>
+    <string name="mni_custom_optimized_adapter">Оптимизированный адаптер</string>
+    <string name="list_add_header">Выбранные элементы</string>
+    <string name="btn_add">Доб.</string>
+    <string name="hint_fruit">Фрукт</string>
+    <string name="mni_multi_choice_add">Множественный выбор</string>
+    <string name="spinners_header">Выпадающие списки</string>
+    <string name="mni_spinners_demo">Выпадающие списки</string>
+</resources>

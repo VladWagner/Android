@@ -1,0 +1,120 @@
+package com.step.wagner.repositories;
+
+import android.content.Context;
+import android.database.Cursor;
+
+import com.step.wagner.infrastructure.Parameters;
+import com.step.wagner.infrastructure.Utils;
+import com.step.wagner.models.entities.Patient;
+
+import java.text.ParseException;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+public class PatientsRepository extends BaseRepository<Patient> {
+    public PatientsRepository(Context context) {
+
+        super(context,"patients");
+
+        getAllQuery = "select * from view_patients";
+
+        getByIdQuery = String.format("%s where view_patients.%s = ?",getAllQuery, Parameters.ID_FIELD);
+    }
+
+
+    //Получить список id
+    public List<Integer> getIdsList() {
+
+        List<Integer> ids = new ArrayList<>();
+
+        String getIdsQuery = String.format("select %s from view_patients", Parameters.ID_FIELD);
+
+        Cursor cursor = db.rawQuery(getIdsQuery, null);
+
+        //Если данные были получены
+        if (cursor.moveToFirst()) {
+
+            int idIndex = 0;
+
+            //Получение значений
+            do {
+
+                //Индекс строки с id
+                idIndex = cursor.getColumnIndex(Parameters.ID_FIELD);
+
+                //Добавить объект в список
+                ids.add(cursor.getInt(idIndex));
+
+            } while (cursor.moveToNext());
+
+        }
+
+        cursor.close();
+        return ids;
+    }//getIdsList
+
+    //Запрос 1
+    public List<Patient> query1(String surname) {
+
+
+        List<Patient> patients = new ArrayList<>();
+
+        String query = String.format("%s where view_patients.patient_surname like ?",getAllQuery);
+
+        Cursor cursor = db.rawQuery(query, new String[]{
+                String.valueOf(surname)
+        });
+
+        //Если данные были получены
+        if (cursor.moveToFirst()) {
+
+            //Получение значений
+            do {
+                //Добавить объект в список
+                patients.add(readFromCursor(cursor));
+
+            } while (cursor.moveToNext());
+
+        }
+
+        cursor.close();
+        return patients;
+    }//query1
+
+    //Получение объекта из курсора
+    @Override
+    Patient readFromCursor(Cursor cursor) {
+        //Индексы столбцов
+
+        int idIndex = cursor.getColumnIndex(Parameters.ID_FIELD);
+        int patientSurnameIndex = cursor.getColumnIndex("patient_surname");
+        int patientNameIndex = cursor.getColumnIndex("patient_name");
+        int patientPatronymicIndex = cursor.getColumnIndex("patient_patronymic");
+        int bornDateIndex = cursor.getColumnIndex("born_date");
+        int addressIndex = cursor.getColumnIndex("address");
+        int passportIndex = cursor.getColumnIndex("passport");
+
+        //Получение значений
+        int id = cursor.getInt(idIndex);
+        String patientSurname = cursor.getString(patientSurnameIndex);
+        String patientName = cursor.getString(patientNameIndex);
+        String patientPatronymic = cursor.getString(patientPatronymicIndex);
+        String address = cursor.getString(addressIndex);
+        String passport = cursor.getString(passportIndex);
+
+        Date bornDate;
+
+        //Получить дату приёма
+        try {
+            bornDate = Utils.DBdateFormat.parse(cursor.getString(bornDateIndex));
+        } catch (ParseException e) {
+            throw new RuntimeException(e);
+        }
+
+        //Создать объект
+        return new Patient(id, patientSurname, patientName, patientPatronymic, bornDate, address, passport);
+    }
+
+
+}

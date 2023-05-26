@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <!--Наименование-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:gravity="start"
+        android:paddingTop="7dp"
+        android:paddingBottom="8dp"
+        android:text="@string/label_prod_name"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/productName"
+        android:hint="@string/product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="7dp"
+        android:paddingBottom="12dp"
+        android:textSize="24sp" />
+
+    <!--Количество товаров-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:gravity="start"
+        android:paddingTop="7dp"
+        android:paddingBottom="5dp"
+        android:text="@string/label_amount"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/amount"
+        android:hint="@string/amount"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="7dp"
+        android:paddingBottom="12dp"
+        android:layout_marginTop="18dp"
+        android:textSize="24sp" />
+
+    <!--Стоимость единицы-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:gravity="start"
+        android:paddingTop="7dp"
+        android:paddingBottom="5dp"
+        android:text="@string/label_price"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/price"
+        android:hint="@string/price"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="7dp"
+        android:paddingBottom="12dp"
+        android:layout_marginTop="18dp"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnSum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="3dp"
+            android:paddingVertical="13dp"
+            android:width="220dp"
+            android:onClick="countSum"
+            android:text="@string/btn_sum" />
+
+        <Button
+            android:id="@+id/btnGenerate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="3dp"
+            android:width="220dp"
+            android:onClick="countSum"
+            android:text="@string/btn_generate" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/sum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:layout_marginStart="12dp"
+        android:gravity="start"
+        android:paddingTop="7dp"
+        android:paddingBottom="12dp"
+        android:text="@string/sum"
+        android:textSize="24sp" />
+
+</LinearLayout>

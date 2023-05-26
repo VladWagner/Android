@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Первые фрагменты</string>
+    <string name="str_fragment_header1">Заголовок фрагмента 1</string>
+    <string name="str_fragment_info1">Сюда будем выводить данные</string>
+    <string name="str_activity_header">Использование фрагментов</string>
+    <string name="btn_fragment1_action">Текущая дата</string>
+    <string name="str_header_fragment">Корень кубический</string>
+    <string name="str_number_hint">Введите число</string>
+    <string name="str_result">Корень куб.:</string>
+    <string name="str_btn_calculate">Вычислить</string>
+    <string name="btn_exit">Выход</string>
+    <string name="str_hint">Тут будет выведен текст</string>
+    <string name="str_btn_hello">Приветствие</string>
+    <string name="str_btn_bye">Прощание</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Фрагмент ВПУ911</string>
+    <string name="btn_hello">Привет</string>
+    <string name="btn_bye">Пока</string>
+</resources>
