@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/cmiUserProcess"
+        android:title="@string/mni_user_process" />
+    <item
+        android:id="@+id/cmiBeveriedgeProcess"
+        android:title="@string/mni_process_beveriedge" />
+    <item
+        android:id="@+id/cmiExit"
+        android:title="@string/btn_exit" />
+</menu>

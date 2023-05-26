@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.UserActivity">
+
+    <!-- данные о пользователе -->
+    <TextView
+        android:id="@+id/txvUserActivityInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:textSize="22sp"
+        android:text="@string/empty_space" />
+
+    <!-- Область для радиокнопок -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:weightSum="100"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/rgrAge"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_weight="50">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="@string/rgr_age_head"/>
+
+            <RadioButton
+                android:id="@+id/rbtAgeInc1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickAgeIncHandler"
+                android:text="@string/rbt_age_inc1" />
+
+            <RadioButton
+                android:id="@+id/rbtAgeInc2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickAgeIncHandler"
+                android:text="@string/rbt_age_inc2" />
+
+            <RadioButton
+                android:id="@+id/rbtAgeInc3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickAgeIncHandler"
+                android:text="@string/rbt_age_inc3" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rgrSalary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dp"
+            android:layout_weight="50" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="@string/rgr_salary_head"/>
+
+            <RadioButton
+                android:id="@+id/rbtSalary1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbt_salary1" />
+
+            <RadioButton
+                android:id="@+id/rbtSalary2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbt_salary2" />
+
+            <RadioButton
+                android:id="@+id/rbtSalary3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbt_salary3" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnUserActivityProcess"
+        style="@android:style/Widget.Holo.Button.Small"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_user_activity_process_user" />
+
+
+</LinearLayout>

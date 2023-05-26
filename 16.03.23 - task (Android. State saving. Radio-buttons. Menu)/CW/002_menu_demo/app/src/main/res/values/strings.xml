@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Menu Demo</string>
+
+    <string name="empty_space">Данные: ---\"---</string>
+    <string name="btn_create">Создать</string>
+    <string name="btn_process">Обработать</string>
+    <string name="btn_back">Возврат</string>
+    <string name="btn_user_activity_process_user">Обработать пользователя</string>
+    <string name="btn_exit">Выход</string>
+    <string name="head_user">Пользователь:</string>
+    <string name="head_beveridge">Напиток:</string>
+    <string name="rgr_age_head">Приращение\nвозраста:</string>
+    <string name="rgr_salary_head">Варианты\nоклада:</string>
+    <string name="rbt_age_inc1">-5 лет</string>
+    <string name="rbt_age_inc2">+1 год</string>
+    <string name="rbt_age_inc3">+5 лет</string>
+    <string name="rbt_salary1">25 000 руб.</string>
+    <string name="rbt_salary2">42 000 руб.</string>
+    <string name="rbt_salary3">65 000 руб.</string>
+    <string name="btn_user_activity_process_beveridge">Обработать напиток:</string>
+    <string name="swt_activity_beveridge_use">Использовать термоизоляцию</string>
+    <string name="mni_create_beveriedge">Создать напиток</string>
+    <string name="mni_user_create">Создать пользователя</string>
+    <string name="mni_user_process">Обработать пользователя</string>
+    <string name="mni_process_beveriedge">Обработать напиток</string>
+    <string name="cbx_activity_beveridge_example">Просто пример чек-бокса</string>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">UI Elems Multi Activities</string>
+
+    <string name="str_header">Demo UI elements</string>
+    <string name="str_snackbars">Работа со Snackbar</string>
+    <string name="btn_snackbar1">Snackbar 1</string>
+    <string name="btn_snackbar2">Snackbar 2</string>
+    <string name="btn_snackbar3">Snackbar 3</string>
+    <string name="btn_exit">Выход</string>
+    <string name="str_imageviews">Работа с ImageView и активностями</string>
+    <string name="btn_image_view1">ImageView1</string>
+    <string name="btn_image_view2">ImageView2</string>
+    <string name="btn_image_view3">ImageView3</string>
+    <string name="btn_back">Назад</string>
+</resources>

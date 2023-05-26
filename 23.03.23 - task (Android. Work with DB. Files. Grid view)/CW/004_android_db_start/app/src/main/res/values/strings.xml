@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Android DB Start</string>
+
+    <string name="txtName">Введите имя</string>
+    <string name="txtAge">Введите возраст</string>
+    <string name="btnAdd">Добавить</string>
+    <string name="btnRead">Показать</string>
+    <string name="btnClear">Очистить</string>
+    <string name="btnFinish">Выход</string>
+    <string name="btnUpdate">Изменить</string>
+    <string name="btnDelete">Удалить</string>
+    <string name="txtId">Идентификатор для редактирования или удаления записи</string>
+    <string name="btnAggregate">Агрегатные</string>
+
+</resources>

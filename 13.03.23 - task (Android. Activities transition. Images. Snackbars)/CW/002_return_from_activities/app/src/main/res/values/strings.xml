@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Return From Activities</string>
+
+    <string name="empty_space">Данные: ---\"---</string>
+    <string name="btn_create">Создать</string>
+    <string name="btn_process">Обработать</string>
+    <string name="btn_back">Возврат</string>
+    <string name="btn_user_activity_process_user">Обработать пользователя</string>
+    <string name="btn_exit">Выход</string>
+    <string name="head_user">Пользователь:</string>
+    <string name="head_beveridge">Напиток:</string>
+</resources>

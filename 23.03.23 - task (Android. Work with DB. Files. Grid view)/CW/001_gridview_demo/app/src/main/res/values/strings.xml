@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GridView Demo</string>
+
+    <string name="header1">Элемент GridView</string>
+    <string name="mni_exit">Выход</string>
+    <string name="mni_back">На главную</string>
+    <string name="mni_grid1">"Пример GridView "</string>
+    <string name="header2">GridView - собственный адаптер</string>
+</resources>

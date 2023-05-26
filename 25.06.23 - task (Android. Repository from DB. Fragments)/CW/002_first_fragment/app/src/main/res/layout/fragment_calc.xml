@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="6dp"
+    android:layout_margin="6dp"
+    android:background="@color/calc_background"
+    tools:context=".fragments.CalcFragment">
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:text="@string/str_header_fragment" />
+
+    <EditText
+        android:id="@+id/edtNumber"
+        style="@style/TextViewStyle"
+        android:inputType="numberDecimal"
+        android:hint="@string/str_number_hint"/>
+
+    <TextView
+        android:id="@+id/txvResult"
+        style="@style/TextViewStyle"
+        android:text="@string/str_result" />
+
+    <Button
+        android:id="@+id/btnCalc"
+        style="@style/ButtonStyle"
+        android:text="@string/str_btn_calculate"/>
+
+</LinearLayout>

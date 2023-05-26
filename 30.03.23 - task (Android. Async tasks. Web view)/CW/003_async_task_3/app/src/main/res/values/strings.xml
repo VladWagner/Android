@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Async Task 3</string>
+
+    <string name="start">Пуск задачи</string>
+    <string name="get">Получить результат</string>
+    <string name="cancel">Снять задачу</string>
+    <string name="btnGetStatus">Состояние задачи</string>
+</resources>

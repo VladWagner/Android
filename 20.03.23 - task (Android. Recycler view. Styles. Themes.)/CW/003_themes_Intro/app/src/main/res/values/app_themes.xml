@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Цветовые сочетания, размеры - лучшие кандидаты для тем -->
+<resources>
+    <!-- Тема, применяемая ко всему приложению, это задается
+         не в данной разметке, это задается в манифесте
+    -->
+    <style name="MyAppTheme" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">#FF018786</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <!-- Тема, применяемая к активности, это задается
+         не в данной разметке, это задается в манифесте -->
+    <style name="MyActivityTheme" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">#f08f</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <!-- Тема, применяемая к контейнеру, это задается
+         не в данной разметке, это задается в разметке контейнера -->
+    <style name="MyContainerTheme" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">#f4f4</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:background">#f222</item>
+    </style>
+</resources>

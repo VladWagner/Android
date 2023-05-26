@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Ships and pets</string>
+    <string name="main_activity_title">Задание на 25.03.23</string>
+
+    <string name="animals_list_activity_title">Список телевизоров</string>
+
+
+    <!--Общие кнопки-->
+    <string name="btn_add">Добавить запись</string>
+    <string name="btn_clean">Очистить поля</string>
+    <string name="btn_exit">Выход</string>
+    <string name="btn_sort_by_price">Сортировка по цене</string>
+
+    <string name="btn_sort_by_diagonal">Сортировка по диагонали</string>
+    <string name="btn_reduce">–</string>
+
+    <!--Кнопки главной активности-->
+    <string name="btn_task1">Телевизоры</string>
+    <string name="btn_task2">БД книг</string>
+
+    <!--Кнопки активности меню запросов-->
+    <string name="btn_query1">Запрос 1</string>
+    <string name="btn_query2">Запрос 2</string>
+    <string name="btn_query3">Запрос 3</string>
+
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="12dp"
+        android:weightSum="100"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:layout_weight="50"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="6dp"
+            android:onClick="onSaveClickHandler"
+            android:text="@string/btn_save"/>
+
+        <Button
+            android:id="@+id/btnLoad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:layout_weight="50"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="3dp"
+            android:onClick="onReadClickHandler"
+            android:text="@string/btn_load"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="12dp"
+        android:weightSum="100"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnWriteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:layout_weight="50"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="6dp"
+            android:onClick="onTextWriteClickHandler"
+            android:text="@string/btn_write_text"/>
+
+        <Button
+            android:id="@+id/btnReadText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:layout_weight="50"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="3dp"
+            android:onClick="onTextReadClickHandler"
+            android:text="@string/btn_read_text"/>
+
+    </LinearLayout>
+
+    <!-- для записи/чтения бинарных данных -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="12dp"
+        android:weightSum="100"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnWriteBinary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:layout_weight="50"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="6dp"
+            android:onClick="onBinaryWriteClickHandler"
+            android:text="@string/btn_write_binary"/>
+
+        <Button
+            android:id="@+id/btnReadBinary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:layout_weight="50"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="3dp"
+            android:onClick="onBinaryReadClickHandler"
+            android:text="@string/btn_read_binary"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:text="@string/text_header"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txvText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:textSize="18sp" />
+    </ScrollView>
+
+</LinearLayout>

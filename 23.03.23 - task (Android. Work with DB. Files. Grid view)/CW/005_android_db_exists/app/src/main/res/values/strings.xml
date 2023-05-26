@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Android DB Exists</string>
+
+    <string name="str_year_hint">Введите год рождения</string>
+    <string name="str_hint_name">Введите имя</string>
+    <string name="str_name_prompt">Имя пользователя:</string>
+    <string name="str_year_of_birth">Год рождения пользователя:</string>
+    <string name="btn_add">Добавить</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="btn_delete">Удалить</string>
+    <string name="mni_exit">Выход</string>
+    <string name="mni_user">Добавить пользователя</string>
+    <string name="mni_back">Назад</string>
+    <string name="str_salary">Оклад, руб:</string>
+    <string name="str_salary_hint">Введите оклад</string>
+</resources>

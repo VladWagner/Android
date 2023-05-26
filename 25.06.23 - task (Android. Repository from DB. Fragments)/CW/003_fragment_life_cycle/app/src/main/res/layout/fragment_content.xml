@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContentFragment">
+
+    <TextView
+        android:id="@+id/txvFragment1Header"
+        style="@style/TextViewStyle"
+        android:text="@string/str_fragment_header1"/>
+
+    <TextView
+        android:id="@+id/txvFragment1Info"
+        style="@style/TextViewStyle"
+        android:text="@string/str_fragment_info1"/>
+
+    <Button
+        android:id="@+id/btnFragment1Action"
+        style="@style/ButtonStyle"
+        android:text="@string/btn_fragment1_action"/>
+
+</LinearLayout>

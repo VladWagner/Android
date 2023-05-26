@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.BeveridgeActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="12dp"
+        android:orientation="vertical">
+
+
+    <!-- данные о напитке -->
+    <TextView
+        android:id="@+id/txvBeveridgeAvtivityInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="18dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:textSize="24sp"
+        android:text="@string/head_beveridge" />
+
+
+        <Switch
+            android:id="@+id/swtUseTermoIsolation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:onClick="onClickUseHandler"
+            android:textSize="18sp"
+            android:text="@string/swt_activity_beveridge_use" />
+
+        <CheckBox
+            android:id="@+id/cbxExample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:onClick="onClickCheckBoxHandler"
+            android:textSize="18sp"
+            android:text="@string/cbx_activity_beveridge_example" />
+
+
+        <Button
+            android:id="@+id/btnBeveridgeActivityProcess"
+            style="@android:style/Widget.Holo.Button.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/btn_user_activity_process_beveridge" />
+    </LinearLayout>
+</ScrollView>
