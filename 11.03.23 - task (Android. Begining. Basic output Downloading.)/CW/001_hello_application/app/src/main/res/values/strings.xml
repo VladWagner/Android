@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">Первое приложение</string>
-    <string name="msg_hello">Привет, Android</string>
-    <string name="msg_soft">Это строка из ресурсов. Длинная строка</string>
-</resources>

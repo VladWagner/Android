@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">Themes Intro</string>
-
-    <string name="str_app_theme">Тема приложения</string>
-    <string name="str_activity_theme">Тема активности</string>
-    <string name="str_container_theme">Тема контейнера</string>
-    <string name="btn_back">Возврат</string>
-    <string name="exit">Выход</string>
-</resources>

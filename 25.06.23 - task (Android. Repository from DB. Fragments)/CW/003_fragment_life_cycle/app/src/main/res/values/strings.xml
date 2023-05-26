@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">Жизненный цикл фрагмента</string>
-    <string name="str_fragment_info1">Сюда будем выводить данные</string>
-    <string name="btn_fragment1_action">Текущая дата</string>
-    <string name="str_activity_header">Жизненный цикл фрагмента</string>
-    <string name="str_fragment_header1">Заголовок фрагмента 1</string>
-    <string name="str_exit">Выход</string>
-</resources>

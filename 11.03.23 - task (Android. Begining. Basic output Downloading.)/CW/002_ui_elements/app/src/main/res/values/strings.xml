@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">UI_Elements</string>
-    <string name="btn_hello">Привет</string>
-    <string name="btn_calc">Расчет</string>
-    <string name="btn_exit">Выход</string>
-    <string name="str_start">Приложение готово</string>
-    <string name="str_prompt">Данные для сложения</string>
-    <string name="str_prompt_number">вводи число</string>
-</resources>
