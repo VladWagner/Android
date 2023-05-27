@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sensors Demo</string>
+
+    <string name="list">Список</string>
+    <string name="accelerometer">Ускорение</string>
+    <string name="proximity">Приближение</string>
+
+    <string name="mni_exit">Выход</string>
+</resources>

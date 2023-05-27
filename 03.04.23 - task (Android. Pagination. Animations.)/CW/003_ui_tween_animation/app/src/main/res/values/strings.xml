@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UI Tween Animation</string>
+
+    <string name="txtExample">Пример текста</string>
+    <string name="btnAlpha">Прозрачность</string>
+    <string name="btnRotate">Вращение</string>
+    <string name="btnCombo">Комбо</string>
+
+</resources>

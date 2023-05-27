@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Retrofit Web Demo</string>
+    <string name="mni_exit">Выход</string>
+</resources>

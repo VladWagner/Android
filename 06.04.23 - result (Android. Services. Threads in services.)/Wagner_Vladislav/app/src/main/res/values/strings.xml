@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Services</string>
+    <string name="main_activity_title">Задание на 08.04.23</string>
+
+    <string name="user_details_activity_title">Информация о пользователе. Загрузка…</string>
+
+
+    <!--Общие кнопки-->
+    <string name="btn_exit">Выход</string>
+
+    <!--Общее-->
+    <string name="container_fragment_title">Результаты веб-запросов</string>
+    <string name="empty_field">---</string>
+
+</resources>

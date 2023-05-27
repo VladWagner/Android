@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.UserDetailsActivity">
+
+    <!--Заголовок-->
+    <TextView
+        android:id="@+id/userActivityTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginHorizontal="8dp"
+        android:text="@string/user_details_activity_title"
+        android:textSize="22sp" />
+
+    <!--Имя пользователя-->
+    <TextView
+        android:id="@+id/userNameTxv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="start"
+        android:layout_marginHorizontal="8dp"
+        android:text="@string/empty_field"
+        android:textSize="19sp" />
+
+    <!--Никнейм пользователя-->
+    <TextView
+        android:id="@+id/usernameTxv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="start"
+        android:layout_marginHorizontal="8dp"
+        android:text="@string/empty_field"
+        android:textSize="19sp" />
+
+    <!--E-mail пользователя-->
+    <TextView
+        android:id="@+id/userEmailTxv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="start"
+        android:layout_marginHorizontal="8dp"
+        android:text="@string/empty_field"
+        android:textSize="19sp" />
+
+    <!--Сайт пользователя -->
+    <TextView
+        android:id="@+id/userWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="start"
+        android:layout_marginHorizontal="8dp"
+        android:text="@string/empty_field"
+        android:textSize="19sp"/>
+
+    <!--Адрес пользователя -->
+    <TextView
+        android:id="@+id/userAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="start"
+        android:layout_marginHorizontal="8dp"
+        android:text="@string/empty_field"
+        android:textSize="19sp" />
+
+    <!--Телефон пользователя -->
+    <TextView
+        android:id="@+id/userPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="start"
+        android:layout_marginHorizontal="8dp"
+        android:text="@string/empty_field"
+        android:textSize="19sp" />
+
+    <!--Компания пользователя -->
+    <TextView
+        android:id="@+id/userCompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="start"
+        android:layout_marginHorizontal="8dp"
+        android:text="@string/empty_field"
+        android:textSize="19sp" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+
+        android:backgroundTint="@color/conduct_el_main"
+        android:paddingVertical="10dp"
+        android:text="@string/btn_exit" />
+
+</LinearLayout>

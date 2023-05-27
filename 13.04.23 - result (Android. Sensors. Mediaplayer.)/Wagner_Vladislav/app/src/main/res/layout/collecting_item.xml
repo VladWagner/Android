@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/mainLl">
+
+    <!--Вывод объекта альбома-->
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_marginVertical="15dp"
+        android:orientation="vertical">
+
+
+        <!--Id записи-->
+        <TextView
+            android:id="@+id/collectingIdTxv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="start"
+            android:textSize="16sp" />
+
+        <!--Дата и время запроса-->
+        <TextView
+            android:id="@+id/startDateTimeTxv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="start"
+            android:textSize="16sp" />
+
+        <!--Значения акселерометра -->
+        <TextView
+            android:id="@+id/accelerometerTxv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="start"
+            android:textSize="16sp" />
+
+        <!--Значение датчика приближения-->
+        <TextView
+            android:id="@+id/approximationTxv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="start"
+            android:textSize="16sp" />
+
+        <!--Значение датчика освещённости-->
+        <TextView
+            android:id="@+id/lightSensorTxv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="start"
+            android:textSize="16sp" />
+
+        <!--Время завершения опроса-->
+        <TextView
+            android:id="@+id/receivingTimeTxv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="start"
+            android:textSize="16sp" />
+
+        <!--Заданные датчики для прослушивания-->
+        <TextView
+            android:id="@+id/sensorsTypesTxv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="start"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainCv"
+    style="@style/CardViewStatisticsRcvItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--Вывод объекта альбома-->
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingVertical="3dp"
+        android:paddingStart="8dp"
+        >
+
+        <!--Id записи-->
+        <TextView
+            android:id="@+id/statisticsItemIdTxv"
+            style="@style/RecyclerViewItemTxv"
+            android:visibility="gone"
+            />
+
+
+        <!--Количество полученных значений -->
+        <TextView
+            android:id="@+id/dataCountTxv"
+            style="@style/RecyclerViewItemTxv"
+            android:layout_marginTop="0dp"
+            />
+
+        <!--Дата и время выполнения опроса-->
+        <TextView
+            android:id="@+id/startDateTimeTxv"
+            style="@style/RecyclerViewItemTxv" />
+
+
+        <!--Дата и вермя проведения обработки-->
+        <TextView
+            android:id="@+id/processingDateTimeTxv"
+            style="@style/RecyclerViewItemTxv" />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

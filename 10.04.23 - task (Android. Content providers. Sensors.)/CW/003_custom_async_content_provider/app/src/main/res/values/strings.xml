@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Custom Async Content Provider</string>
+
+    <string name="str_async_loader">Асинхронная загрузка</string>
+    <string name="str_delete">Удалить</string>
+    <string name="str_update">Изменить</string>
+    <string name="str_add">Добавить</string>
+    <string name="str_get_all">Получить все</string>
+    <string name="str_back">На главную</string>
+    <string name="btn_back">Назад</string>
+
+    <string name="mni_exit">Выход</string>
+</resources>

@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Sensors and media player</string>
+    <string name="main_activity_title">Задание на 20.04.23</string>
+
+    <string name="service_activity_title">Сбор показателей с датчиков</string>
+
+
+    <!--Общие кнопки-->
+    <string name="btn_exit">Выход</string>
+    <string name="btn_collecting_mode">Сбор показателей</string>
+    <string name="btn_handling_mode">Обработка</string>
+    <string name="btn_save">Сохранить</string>
+
+    <!--Общее-->
+    <string name="container_fragment_title">Ожидание данных</string>
+    <string name="btn_about">О приложении</string>
+    <string name="btn_settings">Настройки</string>
+    <string name="empty_field">---</string>
+    <string name="btn_edit">Изменить</string>
+    <string name="btn_delete">Удалить</string>
+
+    <string name="channel_name">home_work</string>
+    <string name="channel_description">home_work</string>
+
+    <!--Активность сбора-->
+    <string name="btn_stop_collecting">Остановить сбор</string>
+    <string name="btn_clean_history">Очистить историю</string>
+
+    <!--Настройки -->
+    <string name="file_name_hint">Введите имя файла</string>
+
+    <string name="quiz_duration_title">Длительность сбора</string>
+    <string name="quiz_duration_hint">Введите значение в секундах</string>
+
+    <string name="quiz_interval_title">Период опроса датчиков</string>
+    <string name="quiz_interval_hint">Введите период в секундах</string>
+
+    <string name="service_delay_title">Задержка запуска сервиса</string>
+    <string name="service_delay_hint">Введите задержку в секундах</string>
+
+    <string name="accelerometer_swt_title">Оправшивать акселерометр</string>
+    <string name="accelerometer_swt">Оправшивать ли датчик ускорения</string>
+
+    <string name="approximation_swt_title">Оправшивать датчик приближения</string>
+    <string name="light_swt_title">Оправшивать датчик освещённости</string>
+    <string name="launch_media_player_title">Запускать media player при сборе</string>
+
+    <!--Статистика-->
+    <string name="id_label">id записи:</string>
+    <string name="statistics_amount">Количество записей:</string>
+
+    <string name="statistics_accelerometer_X">Ускорение. Ось X:</string>
+    <string name="statistics_accelerometer_Y">Ускорение. Ось Y:</string>
+    <string name="statistics_accelerometer_Z">Ускорение. Ось Z:</string>
+
+
+    <string name="statistics_approximation">Датчик приближения:</string>
+    <string name="statistics_light">Датчик освещённости:</string>
+    <string name="collecting_start_time_label">Время начала сбора:</string>
+    <string name="handling_time_label">Время обработки:</string>
+    <string name="sensors_types_label">Датчики:</string>
+
+</resources>

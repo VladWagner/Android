@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- заголовок контента -->
+    <TextView
+        android:id="@+id/txvPageHeader"
+        android:layout_margin="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textStyle="bold"
+        android:textSize="22sp" />
+
+    <!-- контент страницы -->
+    <TextView
+        android:id="@+id/txvPageText"
+        android:layout_margin="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cardview_light_background"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:padding="6dp"
+        android:textSize="18sp" />
+
+</LinearLayout>

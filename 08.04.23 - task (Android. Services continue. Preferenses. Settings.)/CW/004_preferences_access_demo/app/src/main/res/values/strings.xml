@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Preferences Access Demo</string>
+
+    <string name="str_get_name">Получить имя</string>
+    <string name="str_put_name">Сохранить имя</string>
+    <string name="hint_get_name">Введите имя</string>
+
+</resources>

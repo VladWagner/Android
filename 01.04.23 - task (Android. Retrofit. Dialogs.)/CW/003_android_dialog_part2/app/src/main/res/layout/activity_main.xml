@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:weightSum="100"
+            android:layout_marginTop="36dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnDialog1"
+                style="@android:style/Widget.Holo.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="33"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:onClick="showDialog1"
+                android:text="@string/btn_dialog1" />
+
+            <Button
+                android:id="@+id/btnDialog2"
+                style="@android:style/Widget.Holo.Button"
+                android:layout_width="0dp"
+                android:layout_weight="34"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:onClick="showDialog2"
+                android:text="@string/btn_dialog2" />
+
+            <Button
+                android:id="@+id/btnDialog3"
+                style="@android:style/Widget.Holo.Button"
+                android:layout_width="0dp"
+                android:layout_weight="33"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:onClick="showDialog3"
+                android:text="@string/btn_dialog3" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonFinish"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="36dp"
+            android:onClick="finishClick"
+            android:text="@string/buttonFinish" />
+
+    </LinearLayout>
+</ScrollView>

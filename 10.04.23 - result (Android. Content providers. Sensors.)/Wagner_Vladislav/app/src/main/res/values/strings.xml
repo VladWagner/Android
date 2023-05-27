@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Content providers</string>
+    <string name="main_activity_title">Задание на 13.04.23</string>
+
+    <string name="receiver_fragment_title">Результаты запросов</string>
+
+
+    <!--Общие кнопки-->
+    <string name="btn_exit">Выход</string>
+    <string name="btn_add">Добавить</string>
+    <string name="btn_edit">Изменить</string>
+    <string name="btn_delete">Удалить</string>
+    <string name="btn_change_params">Задать параметры</string>
+    <string name="btn_sort_by_id">Сортировка по id</string>
+
+    <!--Главное меню-->
+    <string name="btn_subscriptions_table">Подпискси</string>
+    <string name="btn_publications_table">Издания</string>
+    <string name="about_activity">О разработчике</string>
+
+
+    <!--Диалог для задания id элемента-->
+    <string name="set_id_label">Задайте id издания для выборки</string>
+    <string name="set_id_hint">Введите id</string>
+    <string name="set_id_title">Задать параметр</string>
+
+
+    <!--Диалог редактирования,добавления приёма-->
+    <string name="subscription_dialog_date_label">Выберите дату начала подписки</string>
+    <string name="subscription_dialog_publication_label">Выберите издание</string>
+    <string name="subscription_dialog_duration_label">Задайте длительность</string>
+    <string name="subscription_dialog_duration_hint">Ввести длительность</string>
+    <string name="appointment_dialog_date_btn">Нажмите для выбора даты</string>
+
+    <!--Вывод альбомов-->
+    <string name="subscription_dialog_swt">Запоминать значения</string>
+
+</resources>

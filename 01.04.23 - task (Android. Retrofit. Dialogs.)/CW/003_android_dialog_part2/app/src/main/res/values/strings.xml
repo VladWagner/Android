@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Android Dialog. Part 2</string>
+
+    <string name="dialog3message">Сообщение диалогового окна</string>
+    <string name="buttonFinish">Выход</string>
+    <string name="checkbox1">Лед</string>
+    <string name="checkbox2">Мед</string>
+    <string name="checkbox3">Сахар</string>
+    <string name="dialog_hint">Строка ввода диалогового окна</string>
+    <string name="btn_dialog1">Диалог 1</string>
+    <string name="btn_dialog2">Диалог 2</string>
+    <string name="btn_dialog3">Диалог 3</string>
+
+</resources>

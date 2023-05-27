@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Preferences Fragment Compat Demo</string>
+
+    <string name="str_btnSettings">Переход к настройкам</string>
+    <string name="str_email">Введите email</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android Dialog. Part 1</string>
+
+    <string name="timeButton24">Изменить время в текстовом поле (24 часа)</string>
+    <string name="timeButton12">Изменить время в текстовом поле (AM/PM)</string>
+    <string name="dateButton">Изменить дату в текстовом поле</string>
+    <string name="buttonFinish">Выход</string>
+    <string name="str_prompt"><u>Текстовое поле для вывода даты и времени:</u></string>
+</resources>

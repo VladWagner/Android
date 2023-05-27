@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Services</string>
+    <string name="main_activity_title">Задание на 10.04.23</string>
+
+    <string name="service_activity_title">Коллекция сообщений</string>
+
+
+    <!--Общие кнопки-->
+    <string name="btn_exit">Выход</string>
+    <string name="btn_service">Работа с сервисом</string>
+
+    <!--Общее-->
+    <string name="container_fragment_title">Ожидание данных</string>
+    <string name="btn_about">О приложении</string>
+    <string name="btn_settings">Настройки</string>
+    <string name="empty_field">---</string>
+    <string name="btn_edit">Изменить</string>
+    <string name="btn_delete">Удалить</string>
+
+    <string name="channel_name">home_work</string>
+    <string name="channel_description">home_work</string>
+
+    <!--Активность вывода коллекции-->
+    <string name="btn_start_service">Запустить сервис</string>
+    <string name="btn_stop_service">Остановить сервис</string>
+
+    <!--Диалог редактирования/добавления сообщения-->
+
+    <string name="sender_label">Отправитель</string>
+    <string name="sender_txv_hint">Задать отправителя</string>
+
+    <string name="receiver_label">Получатель</string>
+    <string name="receiver_txv_hint">Задать получателя</string>
+
+    <string name="subject_label">Тема сообщения</string>
+    <string name="subject_txv_hint">Задать тему</string>
+
+    <string name="text_label">Текст сообщения</string>
+    <string name="text_txv_hint">Задать текст </string>
+    <string name="swt_attachments">Есть вложения</string>
+
+    <!--Настройки -->
+    <string name="file_name_title">Имя JSON-файла</string>
+    <string name="file_name_hint">Введите имя файла</string>
+
+    <string name="service_interval_title">Период запуска сервиса</string>
+    <string name="service_interval_hint">Введите период в секундах</string>
+
+    <string name="service_delay_title">Задержка запуска сервиса</string>
+    <string name="service_delay_hint">Введите задержку в секундах</string>
+
+    <string name="recover_dialog_fields_title">Восстанавливать поля</string>
+    <string name="recover_dialog_fields_swt">Восстанавливать поля диалога при доаблавлении</string>
+    <string name="restart_message">*Для применения настроек нужен презапуск главной активности</string>
+
+</resources>

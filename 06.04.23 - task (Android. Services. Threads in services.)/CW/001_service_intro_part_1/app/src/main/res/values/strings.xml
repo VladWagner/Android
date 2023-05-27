@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Service Intro part 1</string>
+	
+    <string name="start">Старт сервиса</string>
+    <string name="stop">Стоп сервиса</string>
+
+</resources>

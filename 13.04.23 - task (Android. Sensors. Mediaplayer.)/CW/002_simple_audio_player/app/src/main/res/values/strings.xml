@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Simple Audio Player</string>
+
+    <string name="btn_play">Пуск</string>
+    <string name="btn_pause">Пауза</string>
+    <string name="btn_stop">Стоп</string>
+    <string name="txv_header">Аудиоплеер</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Service Intro part 8</string>
+	
+    <string name="start">Старт</string>
+    <string name="up">Ув. инт.</string>
+    <string name="down">Ум. инт.</string>	
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="6dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTask1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:text="@string/str_task1" />
+
+    <TextView
+        android:id="@+id/tvTask2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:text="@string/str_task2"/>
+
+    <TextView
+        android:id="@+id/tvTask3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:text="@string/str_task3"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100">
+
+        <Button
+            android:id="@+id/btnStart"
+            style="@android:style/Widget.Holo.Button.Small"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:layout_margin="6dp"
+            android:onClick="onClickStart"
+            android:text="@string/cmd_start"/>
+
+        <Button
+            android:id="@+id/btnClear"
+            style="@android:style/Widget.Holo.Button.Small"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:layout_margin="6dp"
+            android:onClick="onClickClear"
+            android:text="@string/cmd_clear"/>
+    </LinearLayout>
+
+</LinearLayout>

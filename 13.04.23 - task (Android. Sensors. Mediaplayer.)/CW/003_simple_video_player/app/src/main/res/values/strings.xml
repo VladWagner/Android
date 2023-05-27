@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Simple Video Player</string>
+	
+	<string name="btn_play">Пуск</string>
+    <string name="btn_pause">Пауза</string>
+    <string name="btn_stop">Стоп</string>
+    <string name="txv_header">Видеоплеер</string>
+
+
+</resources>

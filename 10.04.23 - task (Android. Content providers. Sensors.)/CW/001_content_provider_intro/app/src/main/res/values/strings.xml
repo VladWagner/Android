@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Content Provider Intro</string>
+
+    <string name="add_contact">Добавить</string>
+    <string name="str_contacts"><u><b>Контакты:</b></u></string>
+    <string name="mni_exit">Выход</string>
+</resources>

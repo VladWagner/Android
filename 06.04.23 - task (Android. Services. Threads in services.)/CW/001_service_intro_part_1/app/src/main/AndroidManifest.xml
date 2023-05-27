@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/submarine"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ServiceIntroPart1"
+        tools:targetApi="31">
+		
+        <!-- реализация сервиса - сервис это класс Java, в д.с. это класс MyService  -->
+        <!-- регистрация сервиса в манифесте -->
+        <!--
+        android:name      : название класса сервиса
+        android:enabled   : если имеет значение "true", то сервис может создаваться системой.
+                            Значение по умолчанию - "true".
+        android:exported  : указывает, могут ли компоненты других приложений обращаться к сервису.
+                            Если имеет значение "true", то могут, если имеет значение "false", то нет.
+        android:icon      : значок сервиса, представляет собой ссылку на ресурс drawable
+        android:isolatedProcess: если имеет значение true, то сервис может быть запущен как
+                            специальный процесс, изолированный от остальной системы.
+        android:label     : название сервиса, которое отображается пользователю
+        android:permission: набор разрешений, которые должно применять приложение для запуска сервиса
+        android:process   : название процесса, в котором запущен сервис. Как правило,
+                            имеет то же название, что и пакет приложения.
+        -->
+        <service
+            android:name="org.itstep.pd011.serviceintropart1.MyService"
+
+            android:enabled="true"
+            android:exported="true">
+        </service>
+		
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

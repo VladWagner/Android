@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuBtnCollectingActivity"
+        android:title="@string/btn_collecting_mode"
+        />
+    <item
+        android:id="@+id/menuBtnHandlingActivity"
+        android:title="@string/btn_handling_mode"
+        />
+    <item
+        android:id="@+id/menuBtnSettingsActivity"
+        android:title="@string/btn_settings"
+        />
+    <item
+        android:id="@+id/menuBtnAbout"
+        android:title="@string/btn_about"
+        />
+    <item
+        android:id="@+id/menuBtnExit"
+        android:title="@string/btn_exit"
+        android:icon="@drawable/exit"
+        app:showAsAction="always"
+        />
+</menu>

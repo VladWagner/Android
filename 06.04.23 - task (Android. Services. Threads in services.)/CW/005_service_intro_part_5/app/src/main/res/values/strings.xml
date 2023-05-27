@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Service Intro part 5</string>
+
+    <string name="cmd_start">Старт сервисов</string>
+    <string name="cmd_finish">Выход</string>
+    <string name="cmd_clear">Очистка</string>
+    <string name="str_task1">Task1</string>
+    <string name="str_task2">Task2</string>
+    <string name="str_task3">Task3</string>
+</resources>

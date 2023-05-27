@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Service Intro part 6</string>
+
+    <string name="cmd_start">Старт сервиса</string>
+    <string name="cmd_stop">Стоп сервиса</string>
+    <string name="str_result">Имя принятого файла выводим тут</string>
+    <string name="str_wait">Сервис запущен, ожидайте уведомления</string>
+
+    <string name="channel_name">org.itstep.pd011.serviceintropart6</string>
+    <string name="channel_description">org.itstep.pd011.serviceintropart6</string>
+</resources>

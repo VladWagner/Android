@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/mainLl">
+
+    <!--Вывод объекта альбома-->
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_marginVertical="15dp"
+        android:orientation="vertical">
+
+
+        <!--Id поста-->
+        <TextView
+            android:id="@+id/postId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="start"
+            android:textSize="16sp" />
+
+        <!--id самого комментария-->
+        <TextView
+            android:id="@+id/commentId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="start"
+            android:textSize="16sp" />
+
+        <!--Заголовок комментария-->
+        <TextView
+            android:id="@+id/commentNameTxv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="start"
+            android:textSize="16sp" />
+
+        <!--E-mail пользователя-->
+        <TextView
+            android:id="@+id/commentEmailTxv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="start"
+            android:textSize="16sp" />
+
+        <!--Содержание комментария -->
+        <TextView
+            android:id="@+id/commentBodyTxv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="start"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

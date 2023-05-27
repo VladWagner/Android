@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Custom Content Provider</string>
+
+    <string name="str_delete">Удалить</string>
+    <string name="str_update">Изменить</string>
+    <string name="str_add">Добавить</string>
+    <string name="str_get_all">Получить все</string>
+
+    <string name="mni_exit">Выход</string>
+</resources>

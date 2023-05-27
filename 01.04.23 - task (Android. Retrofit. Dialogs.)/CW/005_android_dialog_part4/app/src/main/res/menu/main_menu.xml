@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mniAdd"
+        app:showAsAction="always"
+        android:icon="@drawable/user_add"
+        android:title="Добавить" />
+
+    <item
+        android:id="@+id/mniExit" 
+        app:showAsAction="always"
+        android:icon="@drawable/door_out"
+        android:title="Выход" />
+</menu>

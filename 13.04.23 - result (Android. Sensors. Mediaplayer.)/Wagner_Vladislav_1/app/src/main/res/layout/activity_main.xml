@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--Заголовок-->
+    <TextView
+        android:id="@+id/mainActivityTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/main_activity_title"
+        android:textSize="19sp" />
+
+    <Button
+        android:id="@+id/btnSensorsListening"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="6dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/conduct_el_main"
+        android:paddingVertical="13dp"
+        android:text="@string/btn_collecting_mode" />
+    <Button
+        android:id="@+id/btnHandling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="6dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/conduct_el_main"
+        android:paddingVertical="13dp"
+        android:text="@string/btn_handling_mode" />
+    <Button
+        android:id="@+id/btnSettingsMainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="6dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/conduct_el_main"
+        android:paddingVertical="13dp"
+        android:text="@string/btn_settings" />
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="6dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/conduct_el_main"
+        android:paddingVertical="13dp"
+        android:text="@string/btn_about" />
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="6dp"
+        android:layout_marginTop="10dp"
+
+        android:backgroundTint="@color/default_field"
+        android:paddingVertical="13dp"
+        android:text="@string/btn_exit" />
+
+</LinearLayout>

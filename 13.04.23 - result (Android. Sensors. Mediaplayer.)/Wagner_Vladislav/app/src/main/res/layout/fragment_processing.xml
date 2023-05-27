@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ProcessingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--Количество собранных значений-->
+        <androidx.cardview.widget.CardView
+            style="@style/CardViewStatistics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/RelativeLayoutCard"
+                >
+
+                <TextView
+                    android:id="@+id/amountLabel"
+                    style="@style/PropertyName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/statistics_amount" />
+
+                <TextView
+                    android:id="@+id/amountTxv"
+                    style="@style/PropertyValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/amountLabel"
+                    android:text="@string/empty_field" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--Статистика по акселерометру. Ось X-->
+
+        <androidx.cardview.widget.CardView
+            style="@style/CardViewStatistics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/RelativeLayoutCard">
+
+                <TextView
+                    android:id="@+id/accelerometerXLabelTxv"
+                    style="@style/PropertyName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/statistics_accelerometer_X" />
+
+                <TextView
+                    android:id="@+id/accelerometerXTxv"
+                    style="@style/PropertyValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/accelerometerXLabelTxv"
+                    android:text="@string/empty_field" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--Статистика по акселерометру. Ось Y-->
+        <androidx.cardview.widget.CardView
+            style="@style/CardViewStatistics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/RelativeLayoutCard">
+
+                <TextView
+                    android:id="@+id/accelerometerYLabelTxv"
+                    style="@style/PropertyName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/statistics_accelerometer_Y" />
+
+                <TextView
+                    android:id="@+id/accelerometerYTxv"
+                    style="@style/PropertyValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/accelerometerYLabelTxv"
+                    android:text="@string/empty_field" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--Статистика по акселерометру. Ось Z-->
+        <androidx.cardview.widget.CardView
+            style="@style/CardViewStatistics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/RelativeLayoutCard">
+
+                <TextView
+                    android:id="@+id/accelerometerZLabelTxv"
+                    style="@style/PropertyName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/statistics_accelerometer_Z" />
+
+                <TextView
+                    android:id="@+id/accelerometerZTxv"
+                    style="@style/PropertyValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/accelerometerZLabelTxv"
+                    android:text="@string/empty_field" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--Статистика по датчику приближения-->
+        <androidx.cardview.widget.CardView
+            style="@style/CardViewStatistics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/RelativeLayoutCard">
+
+                <TextView
+                    android:id="@+id/approximationLabelTxv"
+                    style="@style/PropertyName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/statistics_approximation" />
+
+                <TextView
+                    android:id="@+id/approximationTxv"
+                    style="@style/PropertyValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/approximationLabelTxv"
+                    android:text="@string/empty_field" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--Статистика по датчику освещения-->
+        <androidx.cardview.widget.CardView
+            style="@style/CardViewStatistics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/RelativeLayoutCard">
+
+                <TextView
+                    android:id="@+id/lightLabelTxv"
+                    style="@style/PropertyName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/statistics_light" />
+
+                <TextView
+                    android:id="@+id/lightTxv"
+                    style="@style/PropertyValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/lightLabelTxv"
+                    android:text="@string/empty_field" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--Дата и время начала сбора-->
+        <androidx.cardview.widget.CardView
+            style="@style/CardViewStatistics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/RelativeLayoutCard">
+
+                <TextView
+                    android:id="@+id/collecting_start_time_txv_label"
+                    style="@style/PropertyName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/collecting_start_time_label" />
+
+                <TextView
+                    android:id="@+id/collecting_start_time_txv"
+                    style="@style/PropertyValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/collecting_start_time_txv_label"
+                    android:text="@string/empty_field" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--Дата и время обработки-->
+        <androidx.cardview.widget.CardView
+            style="@style/CardViewStatistics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/RelativeLayoutCard">
+
+                <TextView
+                    android:id="@+id/handling_time_txv_label"
+                    style="@style/PropertyName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/handling_time_label" />
+
+                <TextView
+                    android:id="@+id/handling_time_txv"
+                    style="@style/PropertyValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/handling_time_txv_label"
+                    android:text="@string/empty_field" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--Используемые датчики-->
+        <androidx.cardview.widget.CardView
+            style="@style/CardViewStatistics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/RelativeLayoutCard">
+
+                <TextView
+                    android:id="@+id/sensors_types_txv_label"
+                    style="@style/PropertyName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/sensors_types_label" />
+
+                <TextView
+                    android:id="@+id/sensorsTypesTxv"
+                    style="@style/PropertyValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/sensors_types_txv_label"
+                    android:text="@string/empty_field" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

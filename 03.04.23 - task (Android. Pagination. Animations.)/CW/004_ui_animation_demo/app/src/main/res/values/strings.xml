@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">UI Animation Demo</string>
+
+    <string name="mainTitle">Анимация изображения</string>
+    <string name="btnAnimUI">Анимация UI</string>
+    <string name="btnStart">Старт</string>
+    <string name="btnStop">Стоп</string>
+    <string name="lblAlpha">Прозрачность</string>
+    <string name="lblScale">Масштаб</string>
+    <string name="lblRotate">Поворот</string>
+    <string name="lbbTranslate">Смещение</string>
+    <string name="lblAuto">Автопилот</string>
+    <string name="uiTitle">Анимация UI</string>
+    <string name="btnExit">Выход</string>
+
+</resources>

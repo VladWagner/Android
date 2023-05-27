@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Android Dialog. Part 4</string>
+
+    <string name="hintPhone">Название модели</string>
+    <string name="hintSurname">Фамилия</string>
+    <string name="hintName">Имя</string>
+    <string name="hintAmount">Сумма денег</string>
+    <string name="str_header">Двунаправленный обмен активность &lt;-&gt; диалог</string>
+    <string name="str_tooltip">Кликните по элементу списка</string>
+
+</resources>

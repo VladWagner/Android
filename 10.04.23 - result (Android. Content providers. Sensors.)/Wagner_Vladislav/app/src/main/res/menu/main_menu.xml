@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/menuBtnExit"
+        android:title="@string/btn_exit"
+        android:icon="@drawable/exit"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/btnSubscriptions"
+        android:title="@string/btn_subscriptions_table"
+        />
+    <item
+        android:id="@+id/btnPublications"
+        android:title="@string/btn_publications_table"
+        />
+    <item
+        android:id="@+id/aboutBtn"
+        android:title="@string/about_activity"
+        />
+</menu>

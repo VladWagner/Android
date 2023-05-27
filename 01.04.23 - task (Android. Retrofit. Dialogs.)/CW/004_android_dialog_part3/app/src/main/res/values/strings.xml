@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Android Dialog. Part 3</string>
+
+    <string name="str_header">Передача объекта из активности в диалог</string>
+    <string name="str_tooltip">Кликните по элементу списка</string>
+    <string name="str_exit">Выход</string>
+</resources>

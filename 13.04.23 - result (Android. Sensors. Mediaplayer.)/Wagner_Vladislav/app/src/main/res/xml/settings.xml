@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <EditTextPreference
+        android:defaultValue="120"
+        android:key="duration"
+        android:summary="@string/quiz_duration_hint"
+        android:title="@string/quiz_duration_title"/>
+
+    <EditTextPreference
+        android:defaultValue="2"
+        android:key="interval"
+        android:summary="@string/quiz_interval_hint"
+        android:title="@string/quiz_interval_title"/>
+
+    <!--Слушать ли акселерометр-->
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="accelerometer"
+        android:summary="@string/accelerometer_swt"
+        android:title="@string/accelerometer_swt_title"/>
+
+    <!--Слушать ли датчик освещённости-->
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="light_sensor"
+        android:title="@string/light_swt_title"/>
+
+    <!--Слушать ли датчик приближения-->
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="approximation_sensor"
+        android:title="@string/approximation_swt_title"/>
+
+    <!--Запускать ли media player-->
+    <SwitchPreference
+        android:key="launch_media_player"
+        android:title="@string/launch_media_player_title"/>
+</PreferenceScreen>

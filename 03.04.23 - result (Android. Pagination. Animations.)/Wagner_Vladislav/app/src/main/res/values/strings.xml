@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Pages</string>
+    <string name="main_activity_title">Задание на 06.04.23</string>
+
+    <string name="receiver_fragment_title">Результаты запросов</string>
+
+
+    <!--Общие кнопки-->
+    <string name="btn_exit">Выход</string>
+    <string name="btn_add">Добавить</string>
+    <string name="btn_export_to_json">Выгрузить в JSON</string>
+    <string name="btn_import_from_json">Загрузить из JSON</string>
+    <string name="btn_edit">Изменить</string>
+    <string name="btn_delete">Удалить</string>
+    <string name="btn_change_params">Задать параметры</string>
+
+    <!--Главное меню-->
+    <string name="btn_appointments_table">Приемы</string>
+    <string name="btn_doctors_table">Доктора</string>
+    <string name="btn_patients_table">Пациенты</string>
+    <string name="export_to_json">Выгрузить таблицы в JSON</string>
+    <string name="about_activity">О разработчике</string>
+
+    <!--Диалог запроса 1-->
+    <string name="query_1_param_label">Задайте последовательность букв</string>
+    <string name="query_1_param_tile">Ввод параметра для запроса 1</string>
+    <string name="query_1_param">Введите последовательность</string>
+
+    <!--Диалог запроса 2-->
+    <string name="query_2_param_label">Задайте % отчисления</string>
+    <string name="query_2_param_tile">Ввод параметра для запроса 2</string>
+    <string name="query_2_param">Введите % отчисления</string>
+
+    <!--Диалог запроса 3-->
+    <string name="query_3_title">Задаёте начальную и конечную даты</string>
+    <string name="query_3_start_date_label">Задание начальной даты</string>
+    <string name="query_3_start_date">Введите начальную дату</string>
+    <string name="query_3_end_date_label">Задание конечной даты</string>
+    <string name="query_3_end_date">Введите конечную дату</string>
+
+    <!--Диалог запроса 4-->
+    <string name="query_4_param_label">Выберите специальность врача</string>
+    <string name="query_4_param_tile">Ввод параметра для запроса 3</string>
+
+    <!--Диалог редактирования,добавления приёма-->
+    <string name="appointment_dialog_date_label">Выберите дату приёма</string>
+    <string name="appointment_dialog_doctor_label">Выберите доктора</string>
+    <string name="appointment_dialog_patient_label">Выберите пациента</string>
+    <string name="appointment_dialog_date_btn">Нажмите для выбора даты</string>
+
+    <!--Вывод альбомов-->
+    <string name="albums_title">Коллекция альбомов</string>
+    <string name="albums_collection_btn">Коллекция альбомов</string>
+    <string name="album_info">Информация об альбоме</string>
+    <string name="album_menu_btn">Запросы к веб-сервису</string>
+    <string name="album_id_label">Задайте id альбома для чтения</string>
+    <string name="album_id_hint">Id альбома</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_margin="12dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_result">
+    </TextView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="12dp"
+        android:weightSum="100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnStart"
+            style="@android:style/Widget.Holo.Button.Small"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:onClick="onClickStart"
+            android:text="@string/cmd_start"
+            android:layout_marginRight="3dp" />
+
+        <Button
+            android:id="@+id/btnStop"
+            style="@android:style/Widget.Holo.Button.Small"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:onClick="onClickStop"
+            android:text="@string/cmd_stop"
+            android:layout_marginLeft="3dp">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

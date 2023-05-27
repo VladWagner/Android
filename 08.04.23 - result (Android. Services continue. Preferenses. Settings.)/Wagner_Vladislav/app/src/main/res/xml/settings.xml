@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference
+        android:key="json_file_name"
+        android:summary="@string/file_name_hint"
+        android:title="@string/file_name_title" />
+
+    <EditTextPreference
+        android:key="interval"
+        android:summary="@string/service_interval_hint"
+        android:title="@string/service_interval_title"/>
+
+    <EditTextPreference
+        android:key="delay"
+        android:summary="@string/service_delay_hint"
+        android:title="@string/service_delay_title"/>
+
+
+    <SwitchPreference
+        android:key="save_dialog_fields"
+        android:summary="@string/recover_dialog_fields_swt"
+        android:title="@string/recover_dialog_fields_title"/>
+</PreferenceScreen>
